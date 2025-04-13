@@ -1,0 +1,22 @@
+# Template file for 'icoextract'
+pkgname=icoextract
+version=0.1.6
+revision=1
+#archs="i686 x86_64"
+#build_wrksrc=
+build_style=python3-pep517
+#configure_args=""
+#make_build_args=""
+#make_install_args=""
+#conf_files=""
+#make_dirs="/var/log/dir 0755 root root"
+hostmakedepends="python3-setuptools"
+makedepends=""
+depends="python3-pefile"
+short_desc="Icon extractor for Windows PE files (.exe/.dll) with optional thumbnailer functionality"
+maintainer="Henri Derycke <henri.derycke@ens-lyon.org>"
+license="MIT"
+homepage="https://github.com/jlu5/icoextract"
+#changelog=""
+distfiles="https://github.com/jlu5/${pkgname}/archive/refs/tags/${version}.tar.gz"
+checksum=761bcbe00c80939fbc3ac42ee6892d558b2a7a920c997197e80b935eef1eb1ec
