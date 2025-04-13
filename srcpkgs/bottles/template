@@ -1,0 +1,14 @@
+# Template file for 'bottles'
+pkgname=bottles
+version=51.21
+revision=1
+build_style=meson
+hostmakedepends="blueprint-compiler pkg-config gettext gtk-update-icon-cache desktop-file-utils"
+makedepends="glib-devel gtk4-devel libadwaita-devel"
+depends="python3-chardet python3-pathvalidate icoextract python3-curl patool python3-fvs vkbasalt-cli python3-Markdown gtksourceview5 gamemode"
+short_desc="Easily manage wine and proton prefix"
+maintainer="Henri Derycke <henri.derycke@ens-lyon.org>"
+license="GPL-3.0-or-later"
+homepage="https://github.com/bottlesdevs/Bottles"
+distfiles="https://github.com/bottlesdevs/Bottles/archive/refs/tags/${version}.tar.gz"
+checksum=3a5653464839d5dbe36d44eabb823d422421897325f3c7944cddc9475575869d
