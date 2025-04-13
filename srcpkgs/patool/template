@@ -1,0 +1,22 @@
+# Template file for 'patool'
+pkgname=patool
+version=4.0.0
+revision=1
+#archs="i686 x86_64"
+#build_wrksrc=
+build_style=python3-pep517
+#configure_args=""
+#make_build_args=""
+#make_install_args=""
+#conf_files=""
+#make_dirs="/var/log/dir 0755 root root"
+hostmakedepends="python3-setuptools"
+makedepends=""
+depends=""
+short_desc="portable command line archive file manager"
+maintainer="Henri Derycke <henri.derycke@ens-lyon.org>"
+license="GPL-3.0-or-later"
+homepage="https://wummel.github.io/patool/"
+#changelog=""
+distfiles="https://github.com/wummel/${pkgname}/releases/download/${version}/${pkgname}-${version}.tar.gz"
+checksum=c953f651ae1e888d1ae483b67b172a783121e83f12a94f735a147bdca8f5d3a4
